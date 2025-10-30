@@ -1,0 +1,44 @@
+Invalid Traffic (IVT) Pattern Analysis Report
+
+Analysis Overview:
+This report presents clear evidence and insights into how device spoofing metrics (IDFA/UA ratio) drive invalid traffic detection in ad campaigns. All findings are based on the data and dashboard visualizations available in this repository.
+
+Chart Interpretations & Insights:
+
+Chart 1: IVT Flagging Rate by Device Spoofing Intensity
+![IVT Flagging Rate](dashboard_chart1.jpg)
+Metric: Ratio bins vs percentage flagged as IVT
+Insight: Over 83% of hours with ratios >2000 are flagged. Clean traffic dominates bins <500.
+
+Chart 2: Daily Device Spoofing vs IVT Score Trend
+![Daily Trend](dashboard_chart2.jpg)
+Metric: Trends of IDFA/UA ratio and IVT score over days
+Insight:Spikes in device spoofing correspond with peaks in detected invalid traffic.
+
+Chart 3: Hourly IVT Flagging Frequency
+![Hourly Flagging](dashboard_chart3.jpg)
+Metric: Count of IVT flags per hour
+Insight: Invalid traffic is concentrated in time windows, not uniformly distributed.
+
+Chart 4: Yearly Overview: Total Device Spoofing and IVT Flagging
+![Yearly Overview](dashboard_chart4.jpg)
+Metric: Yearly aggregation of IDFA/UA ratio and total flagged traffic
+Insight: Demonstrates larger seasonal or campaign-driven patterns.
+
+Chart 5: Request Load and Device Spoofing Pattern Analysis
+- Metric: Requests per IDFA vs total requests and spoofing ratio
+- Insight: Periods of high request volume also show increased spoofing indicators.
+
+ Slicers and KPIs
+- Slicers allow users to filter metrics by date, spoofing bins, or flag status, enriching the analysis.
+- KPIs highlight total flagged hours, flagging rate, and peak device spoofing — supporting operational tracking and fast response.
+
+ Business Analysis
+- Device spoofing is the most powerful predictor of invalid traffic.
+- Fraud risk is episodic and can be monitored/prevented with threshold alerts.
+- The dashboard enables all stakeholders—tech, business, and client teams—to immediately spot and respond to traffic quality threats.
+
+
+Conclusion:
+Clear, actionable visuals and metrics make fraud detection transparent. The dashboard design allows for rapid investigation, quality assurance, and data-driven strategy in digital campaigns.
+
